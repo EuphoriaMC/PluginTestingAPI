@@ -1,0 +1,3 @@
+rootProject.name = 'PluginTestingAPI'
+include 'PluginTest'
+
