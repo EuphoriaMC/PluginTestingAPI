@@ -9,8 +9,8 @@ import java.lang.annotation.Target;
  * An annotation to mark a method as a Spigot Event Test.
  * This will make the method run either once or everytime the specified event is called.
  */
-@Retention(RetentionPolicy.RUNTIME)
 @Target(ElementType.METHOD)
+@Retention(RetentionPolicy.RUNTIME)
 public @interface SpigotEventTest {
     /**
      * Define the event to register the method to.

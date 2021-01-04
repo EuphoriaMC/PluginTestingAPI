@@ -1,3 +1,5 @@
 main: "net.euphoriamc.testplugin.Main"
 name: "PluginTest"
 version: "1.0"
+depend:
+  - "TestingAPI"
